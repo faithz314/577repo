@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+#import seaborn as sns
+
+# Import a nice function for plotting decision boudaries
+#from mlxtend.plotting import plot_decision_regions
+
+# Set the Seaborn theme
+#sns.set_theme()
+
+# Read the iris dataset into a pandas DataFrame object
+df = pd.read_csv("C:\Users\faith\Downloads\palmer_penguins.csv")
+df.iloc[:100]
